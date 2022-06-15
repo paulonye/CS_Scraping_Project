@@ -31,7 +31,7 @@ for page in range(0,360):
 	
 all_links = pd.DataFrame({'links':t_link})
 #the list is then converted to a dataframe
-all_links.to_csv('cs_blogs4.csv')
+all_links.to_csv('cs_blogs1.csv')
 #the dataframe is then saved in a csv file 
 #which will be used in useful_links.py and faulted_blog_links.py files
 print(all_links)
